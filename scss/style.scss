@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: rgb(80, 180, 146);
+
+}
+
+.image {
+  height: 500px;
+  width: 500px;
+  background: url(../images/bg-1.jpg);
+  background-size: cover;
+}
