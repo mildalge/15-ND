@@ -3,45 +3,62 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background: #b4445c;
+  background: #632e39;
 
 }
 
-.image{
-  height: 500px;
-  width: 500px;
-  background: url(../images/img-3.jpg);
-  background-size: cover;
+
+
+h1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  letter-spacing: 2px;
+  color: aliceblue;
 }
 
 button {
-  width: 150px;
-  height: 50px;
+  width: 200px;
+  height: 30px;
   border: 1px solid white;
+  border-radius: 100px;
   background: #ffffff36;
   color: white;
   font-size: 1.2em;
-  box-shadow: 4px 4px 5px #f5f5f53e;
+  // box-shadow: 4px 4px 5px #f5f5f53e;
   transition: 0.3s;
   margin-bottom: 20px;
+  margin-left: 30px;
 }
 
 .tabs {
   background: #ffffff36;
   box-shadow: 4px 4px 5px #f5f5f53e;
-  max-width: 1000px;
-  width: 90%;
-  margin: auto;
+  max-width: 600px;
+  width: 100%;
+  margin-left: 30px;
   border-radius: 4px;
-  padding: 30px;
+  
 }
 
 .tab {
   display: none;
 }
 .image1{
-  height: 200px;
-  width: 200px;
-  background-image: url(../images/img-1.jpg);
+  height: 800px;
+  width: 600px;
+  background-image: url(../images/img-4.jpg);
+  background-size: cover;
+}
+.image2{
+  height: 800px;
+  width: 600px;
+  background-image: url(../images/img-9.jpg);
+  background-size: cover;
+}
+.image3{
+  height: 800px;
+  width: 600px;
+  background-image: url(../images/img-3.jpg);
   background-size: cover;
 }
