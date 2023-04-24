@@ -10,9 +10,7 @@ function showTab(evt, id) {
         tabs[i].style.display = "none"
         buttons[i].classList.remove("selected")
     }
-
     document.getElementById(id).style.display = "block"
-
     evt.currentTarget.classList.add("selected")
     console.log(evt.currentTarget)
 }
